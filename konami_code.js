@@ -5,15 +5,15 @@ function init() {
  let index = 0;
   
  if (index === alphabet.length) {
+     alert("Hurray!")
     document.body.addEventListener("keydown", function(e) {
      const key = parseInt(e.detail || e.which)
  if (key === alphabet[index]) {
-     } index++;
-      alert("Hurray!")
+     index++;
       })
-      }
     }
-  
-  
+   }
+ }
+}
 
 
