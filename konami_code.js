@@ -9,7 +9,7 @@ const key = parseInt(e.detail || e.which)
     index++;
     
     if (index === alphabet.length) {
-      document.body.addEventListener('e',)
+      document.body.addEventListener(e)
      alert("Hurray!")
       }
     }
