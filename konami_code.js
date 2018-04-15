@@ -37,10 +37,9 @@ function init() {
     if (key === alphabet[index]) {
      index++;
     }
-  }  else {
+  } else {
+    index = 0;
   }
-  
-
 
 
 
