@@ -28,7 +28,25 @@ let index = 0;
 
 function init() {
  
- document.body.addEventListener("keydown", function(e) {
+document.body.addEventListener("keydown", function(e) {
+      const key = parseInt(e.detail || e.which) 
+ 
+  if (index === alphabet.length) {
+    alert("Hurray!")
+     
+    if (key === alphabet[index]) {
+    index++;
+    }
+  } else {
+    index = 0;
+  }
+ 
+ 
+ //The ones I found where:
+
+function init() { // closing bracket for this
+ 
+ document.body.addEventListener( // closing paren for this // "keydown", function(e) { // closing bracket for this
       const key = parseInt(e.detail || e.which) 
  
   if (index === alphabet.length) {
@@ -40,4 +58,3 @@ function init() {
   } else {
     index = 0;
   }
- 
