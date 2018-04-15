@@ -28,20 +28,16 @@ let index = 0;
 
 function init() {
  
-  
- if (index === alphabet.length) {
+ document.body.addEventListener("keydown", function(e) {
+      const key = parseInt(e.detail || e.which)
+      
+  if (index === alphabet.length) {
      alert("Hurray!")
      
-     
-     document.body.addEventListener("keydown", function(e) {
-      const key = parseInt(e.detail || e.which)
-     
-     
-      if (key === alphabet[index]) {
-       index++;
+    if (key === alphabet[index]) {
+     index++;
       }
-    }
-   )}
+   }
  }
-
+ 
 
