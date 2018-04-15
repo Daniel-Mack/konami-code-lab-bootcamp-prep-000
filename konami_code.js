@@ -1,7 +1,7 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 
-function init(e) {
+function init() {
   let index = 0;
   
 const key = parseInt(e.detail || e.which)
@@ -9,7 +9,7 @@ const key = parseInt(e.detail || e.which)
     index++;
     
     if (index === alphabet.length) {
-      document.body.addEventListener()
+      document.body.addEventListener(e)
      alert("Hurray!")
       }
     }
