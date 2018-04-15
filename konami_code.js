@@ -10,11 +10,10 @@ function onKeyDownHandler(e) {
     index++;
     
     if (index === alphabet.length) {
+      document.body.addEventListener()
      alert("Hurray!")
       }
     }
   }
 }
 
-
-document.body.addEventListener()
