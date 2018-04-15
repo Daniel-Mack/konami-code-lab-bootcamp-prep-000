@@ -9,8 +9,9 @@ const key = parseInt(e.detail || e.which)
     index++;
     
     if (index === alphabet.length) {
-      document.body.addEventListener("keydown", init)
+      document.body.addEventListener("keydown", function(e) {
      alert("Hurray!")
+      })
       }
     }
   }
