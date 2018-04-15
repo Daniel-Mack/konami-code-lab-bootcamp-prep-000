@@ -12,6 +12,7 @@ function onKeyDownHandler(e) {
     if (index === alphabet.length) {
       document.body.addEventListener('click', function(event) {
   alert('Hurray!')
+      })
       
       }
     }
