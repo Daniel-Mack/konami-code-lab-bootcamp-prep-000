@@ -28,11 +28,11 @@ let index = 0;
 
 function init() {
  
- document.body.addEventListener("keydown", function(e) {
+ document.body.addEventListener('keydown', function(e) {
       const key = parseInt(e.detail || e.which) 
  
   if (index === alphabet.length) {
-     alert("Hurray!")
+     alert('Hurray!')
      
     if (key === alphabet[index]) {
      index++;
@@ -40,3 +40,4 @@ function init() {
   } else {
     index = 0;
   }
+)}
