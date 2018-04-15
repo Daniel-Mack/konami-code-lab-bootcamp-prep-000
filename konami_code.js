@@ -9,7 +9,7 @@ const key = parseInt(e.detail || e.which)
     index++;
     
     if (index === alphabet.length) {
-      document.body.addEventListener("keydown", init, true)
+      document.body.addEventListener("keydown", init)
      alert("Hurray!")
       }
     }
