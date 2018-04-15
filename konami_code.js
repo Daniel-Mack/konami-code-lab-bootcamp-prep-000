@@ -30,7 +30,7 @@ function init() {
  
  document.body.addEventListener("keydown", function(e) {
       const key = parseInt(e.detail || e.which)
-      
+ 
   if (index === alphabet.length) {
      alert("Hurray!")
      
@@ -38,6 +38,6 @@ function init() {
      index++;
     }
   }
-}
- 
+
+
 
